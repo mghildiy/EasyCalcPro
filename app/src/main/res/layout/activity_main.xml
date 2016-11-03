@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:editable="false"
+        android:singleLine="true"
+        android:ellipsize="start"/>
+
+
+    <TextView android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:textIsSelectable="true"/>
+
+    <TextView android:id="@+id/output_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textIsSelectable="true"/>
+
+
+    <!--
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:numColumns="5"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:columnWidth="50dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/Ivory"/>
+    -->
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:columnWidth="50dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

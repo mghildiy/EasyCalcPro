@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\java\android-studio-projects\EasyCalcPro\library\src\main\assets"/><source path="F:\java\android-studio-projects\EasyCalcPro\library\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\java\android-studio-projects\EasyCalcPro\library\src\debug\assets"/></dataSet></merger>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EasyCalcPro</string>
+    <string name="main_english">English</string>
+    <string name="main_hindi">Hindi</string>
+    <string name="BASE64_PUBLIC_KEY">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmUrnCV14U4kT4ZiHSi8M20J3egg9e6FoEFpu/kh2KH65cALZCLrNWQYEeQDMVjvqPL1KN6ICn1DfSO/G3QiAchZfgHM+QThSnu06+zFOqxui1er1dbbJi/DIS/1T7MPIHWQrxYcJ5C+AarpD4MnDZShfKcGcIgdYRxKLPbFYlGr4UAvElcCbDD6oNQXxC8niu9GUxA86S4HQup4yq++BnmY1A/Y2XOcUOwItKCVwRYX7wkjVJldAzzglQNEb4ozwdXVTLowdQO8LBqwN+yS+TJpsqUF0fkwd/AXx40NDW2mzCpK08EkJsLeEtzFKK2wMuQpY9PLO43bxaaVY/qHKkQIDAQAB</string>
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="retry_button">Retry</string>
+    <string name="quit_button">Exit</string>
+</resources>
